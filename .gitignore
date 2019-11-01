@@ -1,0 +1,13 @@
+/bin/
+/build/
+/.gradle/
+/.settings/
+/gradle/
+/logs/
+/target/
+.classpath
+.project
+.springBeans
+.idea/
+*.log
+
