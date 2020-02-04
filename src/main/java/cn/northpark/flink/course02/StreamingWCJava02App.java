@@ -54,6 +54,7 @@ public class StreamingWCJava02App {
         }).keyBy(0).timeWindow(Time.seconds(5)).sum(1).print().setParallelism(1);
 
 
+        //step4 执行函数
         env.execute("StreamingWCJavaApp");
     }
 
